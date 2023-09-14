@@ -12,6 +12,7 @@ def test_icon_exist(browser):
 
 
 
+
     # browser.get('https://demoqa.com/')
     #
     # try:
