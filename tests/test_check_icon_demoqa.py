@@ -2,7 +2,7 @@ from conftest import browser
 from pages.demoqa import DemoQa
 #from selenium.webdriver.common.by import By
 #from selenium.common.exceptions import NoSuchElementException
-
+#
 def test_icon_exist(browser):
     demo_page = DemoQa(browser)#создали страницу
     demo_page.visit()#зашли на страницу
