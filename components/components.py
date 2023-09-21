@@ -7,11 +7,19 @@ class WebElement:# класс в котором находятся все мет
         self.driver = driver
         self.locator = locator
 
+    def check_count_elements(self, count:int)->bool:
+        if len(self.find_elements()) == count:
+            return True
+        return False
+
+
     def click(self):
         self.find_element().click()
 
     def find_element(self):
         return self.driver.find_element(By.CSS_SELECTOR, self.locator)
+    def find_elements(self):
+        return self.driver.find_elements(By.CSS_SELECTOR, self.locator)
 
     def exist(self):
         try:
@@ -22,6 +30,8 @@ class WebElement:# класс в котором находятся все мет
 
     def get_text(self):
         return str(self.find_element().text)
+    def visible(self):
+        return self.find_element().is_displayed()
 
 
 
