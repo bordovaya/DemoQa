@@ -1,0 +1,62 @@
+1695592737963	geckodriver	INFO	Listening on 127.0.0.1:63072
+1695592741041	mozrunner::runner	INFO	Running command: "C:\\Users\\User\\.cache\\selenium\\firefox\\win64\\117.0.1\\firefox.exe" "--marionette" "--remote-debugging ... 73" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileWaAqbx"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695592742180	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695592742247	Marionette	INFO	Listening on port 63111
+WebDriver BiDi listening on ws://127.0.0.1:63073
+Read port: 63111
+1695592742400	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:63073/devtools/browser/b73c21ba-c2b5-49d5-ba3c-3d3d7bddcd56
+JavaScript error: https://eqstat.domru.ru/js/v1, line 380: NetworkError: A network error occurred.
+JavaScript error: https://eqstat.domru.ru/js/v1, line 380: NetworkError: A network error occurred.
+JavaScript error: https://eqstat.domru.ru/js/v1, line 380: NetworkError: A network error occurred.
+JavaScript error: https://media.ethicalads.io/media/client/v1.4.0/ethicalads.min.js, line 1: Error: No ad placements found.
+JavaScript error: https://eqstat.domru.ru/js/v1, line 380: NetworkError: A network error occurred.
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-TF35YF9CVH, line 139: Script terminated by timeout at:
+l@https://www.googletagmanager.com/gtag/js?id=G-TF35YF9CVH:139:17
+Fz@https://www.googletagmanager.com/gtag/js?id=G-TF35YF9CVH:444:134
+Gz/<@https://www.googletagmanager.com/gtag/js?id=G-TF35YF9CVH:444:111
+
+1695592796117	Marionette	INFO	Stopped listening on port 63111
+Dynamically enable window occlusion 1
+1695592799782	geckodriver	INFO	Listening on 127.0.0.1:63234
+1695592802865	mozrunner::runner	INFO	Running command: "C:\\Users\\User\\.cache\\selenium\\firefox\\win64\\117.0.1\\firefox.exe" "--marionette" "--remote-debugging ... 35" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileqxKXOd"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695592803217	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695592803281	Marionette	INFO	Listening on port 63244
+WebDriver BiDi listening on ws://127.0.0.1:63235
+Read port: 63244
+1695592803489	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:63235/devtools/browser/96b7f2b9-17f6-463d-aedd-ad40908556c9
+JavaScript error: https://media.ethicalads.io/media/client/v1.4.0/ethicalads.min.js, line 1: Error: No ad placements found.
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-TF35YF9CVH, line 139: Script terminated by timeout at:
+l@https://www.googletagmanager.com/gtag/js?id=G-TF35YF9CVH:139:17
+Fz@https://www.googletagmanager.com/gtag/js?id=G-TF35YF9CVH:444:134
+Gz/<@https://www.googletagmanager.com/gtag/js?id=G-TF35YF9CVH:444:111
+
+1695592812738	Marionette	INFO	Stopped listening on port 63244
+Dynamically enable window occlusion 1
+1695592964951	geckodriver	INFO	Listening on 127.0.0.1:63451
+1695592968003	mozrunner::runner	INFO	Running command: "C:\\Users\\User\\.cache\\selenium\\firefox\\win64\\117.0.1\\firefox.exe" "--marionette" "--remote-debugging ... 52" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileXIAQpL"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695592968303	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695592968366	Marionette	INFO	Listening on port 63464
+WebDriver BiDi listening on ws://127.0.0.1:63452
+Read port: 63464
+1695592968591	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:63452/devtools/browser/1ccc6875-063f-4a11-b236-cd79da4d7227
+JavaScript error: https://cdn.ad.plus/player/adplus.js, line 413: TypeError: c(...).setup is not a function
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&l=dataLayer&cx=c, line 461: Script terminated by timeout at:
+ba.qh@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&l=dataLayer&cx=c:461:89
+get@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&l=dataLayer&cx=c:459:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&l=dataLayer&cx=c:459:87
+ba.zk/c/<@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&l=dataLayer&cx=c:459:412
+
+1695593400340	Marionette	INFO	Stopped listening on port 63464
+Dynamically enable window occlusion 1
