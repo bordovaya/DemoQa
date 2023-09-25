@@ -8,3 +8,4 @@ class Modal_Dialogs(BasePage):
 
         self.text_lorem_ipsum = WebElement(driver, '#section1Content > p')
         self.btn_afw = WebElement(driver, 'div.element-list.collapse.show>ul>li')
+        self.tools_qa_icon = WebElement(driver, '#app > header > a > img')

@@ -19,6 +19,7 @@ class ElementPage(BasePage):
         self.btn_sidebar_first_checkbox = WebElement(driver, 'div:nth-child(1)>div>ul>#item-1>span')
 
         self.text_footer = WebElement(driver, 'div.playground-header > div')
+        self.nav_bar = WebElement(driver, 'div>nav')
 
 
 
