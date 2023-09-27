@@ -20,6 +20,7 @@ class ElementPage(BasePage):
 
         self.text_footer = WebElement(driver, 'div.playground-header > div')
         self.nav_bar = WebElement(driver, 'div>nav')
+        self.block_menu = WebElement(driver, 'div.row>div:nth-child(1)')
 
 
 
