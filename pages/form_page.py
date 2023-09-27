@@ -20,6 +20,7 @@ class FormPage(BasePage):
         self.state = WebElement(driver,'#state')
         self.city = WebElement(driver,'#stateCity-wrapper > div:nth-child(3)')
         self.single_value = WebElement(driver,'#state > div > div.css-1hwfws3 > div.css-1uccc91-singleValue')
+        self.user_form = WebElement(driver,'#userForm')
 
 
 
