@@ -18,3 +18,19 @@ class WebtablesPage(BasePage):
         self.btn_submit = WebElement(driver, '#submit')
 
 
+        self.no_rows_found = WebElement(driver,'div.rt-noData')
+
+        self.btn_delete = WebElement(driver, 'div.action-buttons>span~[TITLE]')
+        self.new_row = WebElement(driver, 'div.rt-tbody > div:nth-child(4) > div')
+        self.new_row_cell = WebElement(driver, 'div:nth-child(4) > div > div:nth-child(1)')
+        self.btn_edit = WebElement(driver, '#edit-record-4')
+        self.btn_delete_4 = WebElement(driver, '#delete-record-4')
+        self.dropdown = WebElement(driver, '.select-wrap.-pageSizeOptions > select')
+        self.btn_previous = WebElement(driver, 'div.-previous > button')
+        self.btn_next = WebElement(driver, 'div.-next > button')
+        self.total_pages = WebElement(driver,'span.-pageInfo > span')
+        self.page_number = WebElement(driver,'input[type=number]')
+
+
+
+

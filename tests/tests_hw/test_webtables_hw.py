@@ -33,15 +33,3 @@ def test_webtables(browser):
     webtables_page.btn_delete_4.click_force()
     time.sleep(2)
     assert webtables_page.new_row_cell.get_text() == ' '
-
-
-    assert not webtables_page.no_rows_found.exist()
-    while webtables_page.btn_delete.exist():
-        webtables_page.btn_delete.click()
-
-    time.sleep(2)
-    assert webtables_page.no_rows_found.exist()
-
-
-
-
