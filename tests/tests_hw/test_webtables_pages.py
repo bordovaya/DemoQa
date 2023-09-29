@@ -11,8 +11,8 @@ def test_webtables(browser):
     webtables_page.dropdown.clear()
     webtables_page.dropdown.send_keys('5 rows' + Keys.ENTER)
     time.sleep(5)
-    assert webtables_page.btn_previous.get_dom_attribute('disabled') == 'true'
-    assert webtables_page.btn_next.get_dom_attribute('disabled') == 'true'
+    assert not webtables_page.btn_previous.click()
+    assert not webtables_page.btn_next.click()
     webtables_page.btn_add.click()
 
     webtables_page.first_name.send_keys('tester1')
