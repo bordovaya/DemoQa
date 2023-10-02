@@ -16,6 +16,7 @@ class WebElement:# класс в котором находятся все мет
 
 
 
+
     def click(self):
         self.find_element().click()
 

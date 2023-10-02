@@ -30,6 +30,11 @@ class WebtablesPage(BasePage):
         self.btn_next = WebElement(driver, 'div.-next > button')
         self.total_pages = WebElement(driver,'span.-pageInfo > span')
         self.page_number = WebElement(driver,'input[type=number]')
+        self.header_name = WebElement(driver,'div.rt-resizable-header-content')
+        self.header_name_class = WebElement(driver,'.-cursor-pointer')
+
+
+
 
 
 

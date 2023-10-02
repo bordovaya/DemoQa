@@ -52,3 +52,4 @@ def test_webtables(browser):
     assert webtables_page.btn_previous.get_dom_attribute('disabled') == False
     webtables_page.btn_previous.click()
     assert webtables_page.page_number.get_dom_attribute('value') == '1'
+
