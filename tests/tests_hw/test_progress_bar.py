@@ -8,10 +8,15 @@ def test_progress(browser):
     progress_page.visit()
     time.sleep(2)
 
-    progress_page.btn_start.click_force()
-    time.sleep(3.1)
-    if progress_page.progress_bar.get_dom_attribute('valuenow')=='51':
-        return progress_page.btn_start.click_force()
+    progress_page.btn_start.click()
     time.sleep(2)
+
+    while True:
+        if progress_page.progress_bar.get_dom_attribute('aria-valuenow') == '51':
+            progress_page.btn_start.click()
+            break
+    time.sleep(2)
+    assert progress_page.progress_bar.get_dom_attribute('aria-valuenow') == '51'
+
 
 
